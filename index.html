@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PassX -Your Personal Manager</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-bar">
+        <div class="brand">
+          <div class="logo"></div>
+          <!-- Add image-->
+          <div class="logo-name">PassX</div>
+
+          <div class="nav-items">
+            <ul>
+              <li>
+                <a href="">Home</a>
+              </li>
+              <li>
+                <a href="">About us</a>
+              </li>
+              <li>
+                <a href="">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <h1 class="main-h1">Password Manager</h1>
+      <p class="main-p">
+        Keep your passwords safe, organized, and easily accessible. Our password
+        manager encrypts your sensitive information, ensuring that only you have
+        access.
+      </p>
+
+      <div class="main-section">
+        <form action="#">
+          <label for="website">Website</label>
+          <br />
+          <input
+            type="text"
+            placeholder="Website"
+            id="website"
+            name="website"
+            required
+          />
+          <br />
+          <label for="username">Username</label>
+          <br />
+          <input
+            type="text"
+            placeholder="Username"
+            id="username"
+            name="username"
+            required
+          />
+          <br />
+          <br />
+          <label for="password">Password</label>
+          <br />
+          <input
+            type="password"
+            placeholder="Password"
+            id="password"
+            name="password"
+            required
+          />
+          <br />
+          <button class="btn">Submit</button>
+        </form>
+
+        <div class="main-image">
+          <div class="image"></div>
+          <!--Add image-->
+        </div>
+      </div>
+    </main>
+
+    <div class="your-password">
+      <h1 class="yp-h1">Your Password</h1>
+      <div class="passwords">
+        <table>
+          <tr>
+            <th>Website</th>
+            <th>Username</th>
+            <th>Password</th>
+            <th>Delete</th>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
